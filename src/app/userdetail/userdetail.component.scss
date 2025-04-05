@@ -1,0 +1,11 @@
+.example-class{
+    max-width: 800px;
+    display: block;
+    margin: 0, auto;
+    border: 1px solid #acacac;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+.example-header-image{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7L4FWGBOO27k7G_ePJb8usxrPDoo_aqGhWA&s');
+    background-size: cover;
+}
