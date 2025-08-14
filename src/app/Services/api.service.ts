@@ -5,7 +5,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  baseurl:string="https://localhost:7202/api/User/"
+  //baseurl:string="https://localhost:7166/api/User/"
+  baseurl:string="https://gymapp.bsite.net/api/User/"
   constructor(private http:HttpClient) { }
 
   getpackages(){
